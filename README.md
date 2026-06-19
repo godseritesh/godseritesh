@@ -11,29 +11,48 @@
 
 ## 🧑‍💻 About
 
-Backend Software Engineer with **1+ years** of experience architecting high-throughput distributed systems in FinTech. I build production-grade services that process **40K+ transactions/hour**, orchestrate **Kafka pipelines**, and scale across **multi-cloud** (AWS, Azure, GCP, Oracle Cloud).
+Backend Software Engineer with **3+ years** of experience architecting high-throughput distributed systems in FinTech. I build production-grade services that process **37M+ requests/day** across **5M+ customers**, orchestrate **Kafka event pipelines**, and scale across **multi-cloud** (AWS, Azure, Oracle Cloud).
 
-Currently at **Jupiter Money** driving cloud-agnostic backend migrations (PPI, Java 25) and building recovery automation that boosts customer onboarding by **14%**.
+Currently at **Jupiter Money** building a Customer Segmentation and Real-Time Decisioning Platform, driving cloud-agnostic backend migrations, and reducing infrastructure costs by **$17K+/month**.
+
+---
+
+## 🎓 Education
+
+**Vishwakarma Institute of Information Technology** *(2021 – 2025)*
+B.Tech in Artificial Intelligence and Data Science Engineering — **CGPA: 8.98**
 
 ---
 
 ## 💼 Experience
 
 ### Software Development Engineer I — Jupiter Money *(Jan 2026 – Present)*
-- Engineering cloud-agnostic backend services for PPI and Java 25 migration across AWS and Oracle Cloud
-- Resolved terminal-state and retry-loop defects in Onboarding/VKYC/eKYC, reducing customer complaints **40%**
-- Built WhatsApp bot for drop-off nudging + CKYC recovery, increasing daily onboarding **14%**
+- Built and scaled Customer Segmentation and Real-Time Decisioning Platform serving **37M+ requests/day** across **5M+ customers** through Kafka-based event processing and Elasticsearch feature serving, increasing targeted cross-product acquisition by **60%**
+- Improved onboarding conversion by eliminating terminal-state, retry-loop, and stale-state failures across PPI, VKYC, and eKYC journeys, reducing customer complaints by **40%**
+- Led backend modernization for PPI and Java 25 migration, building cloud-agnostic services for multi-cloud deployments across AWS and Oracle
+- Built automated onboarding recovery platform leveraging WhatsApp engagement and CKYC remediation workflows, increasing successful onboarding conversions by **14%**
+- Reduced infrastructure costs by **$17K+/month** through workload optimization, resource governance, and architecture improvements while maintaining SLA compliance
 
-### Graduate Trainee Engineer — PayU Payments *(Jun 2025 – Dec 2025)*
-- Designed Daily Settlement Table service improving settlement accuracy **35%** and reducing storage redundancy **40%**
-- Built MCP-based communication service processing **40K+ transactions/hour** via Kafka + MongoDB
-- Developed LLM-powered chatbot reducing query resolution time **25%**, automating **40%** of tickets
-- Engineered feedback-driven recovery framework improving chatbot resolution accuracy **35%**
+### Graduate Trainee — PayU Payments *(Jun 2025 – Dec 2025)*
+- Designed and implemented Daily Settlement Engine for automated payment reconciliation, improving settlement accuracy **35%** and reducing storage redundancy **40%**
+- Built Kafka-driven transaction orchestration platform integrating external BBPS systems, reliably processing **40,000+ transactions/hour** through asynchronous event-driven workflows
+- Built LLM-powered customer support system integrating retrieval-based knowledge search, automating **40%** of queries while improving resolution accuracy **35%** and reducing resolution time **25%**
 
-### Software Developer (Contract) — JPMorgan Chase & Co. *(Jan 2025 – Jun 2025)*
-- Architected Java pipeline migrating legacy Hadoop datasets to Azure Delta Lake, achieving **2× throughput**
-- Provisioned DEV/PAT/PROD environments via Terraform IaC, reducing setup time **65%**
-- Designed contract-based APIs with PactFlow, cutting integration defects **30%**
+---
+
+## 📌 Featured Projects
+
+### [Map My Ganapati](https://github.com/godseritesh/Map_My_Ganapati)
+Festival navigation web app — **Next.js, Firebase, Leaflet.js**
+- City-scale navigation enabling discovery of 150+ Ganpati pandals with precise locations, aarti timings, and photos
+- **5,000+** concurrent users at peak, **99.9%** uptime
+- Automated CI/CD via GitHub Actions and webhook-driven deployments
+
+### [SkyLink](https://github.com/godseritesh/SkyLink)
+Airline reservation system — **Java, Spring Boot, MySQL, Multithreading**
+- Backend-driven system supporting flight scheduling, passenger management, ticket booking, and cancellation workflows
+- REST APIs with Spring Boot and MySQL for persistent storage of flight, booking, and passenger records
+- Thread-safe seat allocation engine using Java Concurrency and synchronization, preventing double bookings under **100+ concurrent requests**
 
 ---
 
@@ -41,36 +60,26 @@ Currently at **Jupiter Money** driving cloud-agnostic backend migrations (PPI, J
 
 | Category | Technologies |
 |----------|-------------|
-| **Languages** | Java, Kotlin, Python, SQL, Shell |
-| **Frameworks** | Spring Boot, Spring Cloud, Hibernate/JPA, FastAPI |
-| **Message Brokers** | Kafka, Temporal Workflows |
-| **Databases** | PostgreSQL, MySQL, MongoDB, Oracle, ScyllaDB, Redis |
-| **Cloud & IaC** | AWS (EC2, S3, Lambda, CloudFormation), Azure (Data Lake, Delta Lake), GCP, Terraform, Docker |
-| **Monitoring** | Grafana, Prometheus, ELK Stack, Hibernate Metrics |
-| **CI/CD** | Jenkins, GitHub Actions, Docker |
-| **Architecture** | Microservices, Event-Driven, REST/gRPC APIs, CQRS, Idempotency, Distributed Transactions |
+| **Languages** | Java, Kotlin, Scala, Python, SQL, Shell Scripting |
+| **Backend Engineering** | Spring Boot, Play Framework, REST APIs, gRPC, Protocol Buffers, Temporal, Microservices |
+| **Distributed Systems** | Kafka, Elasticsearch, Redis, Istio, PostgreSQL, DynamoDB, Event-Driven Architecture, Distributed Caching |
+| **Cloud & Infrastructure** | AWS, Kubernetes, EKS, Docker, Terraform, Terragrunt, Kustomize, GitHub Actions, Prometheus, Grafana |
+| **Core CS** | Data Structures, Algorithms, OOPs, Operating Systems, Computer Networks, Multithreading, Concurrency |
 
 ---
 
-## 📌 Featured Projects
+## 🏆 Achievements
 
-### [NSS Platform](https://github.com/godseritesh/nss-platform)
-Event polling & blood donation platform for NSS VIIT — **Spring Boot, React, PostgreSQL, Docker**
-- Built in 48 hours for a 48-hour hackathon-style delivery
-- Engaged **3,500+** users, increased blood donations **25%**
-- Full auth (JWT), role-based admin, analytics dashboard
+- **Vice President, NSS VIIT (2023–24)**: Built and deployed the NSS Platform, engaging **3,500+** users and increasing blood donation participation by **25%**
+- Published an IEEE research paper on **Next Word Prediction using NLP** at NIT Rourkela
+- Qualified for **Google Hash Code 2022**
+- **Conference Out, TES-46 SSB**: Among the top 10 out of 400 cadets
 
-### [SkyLink](https://github.com/godseritesh/SkyLink)
-Airline reservation system — **Java, Spring Boot, MySQL, Concurrency**
-- Thread-safe seat allocation engine preventing double bookings under **100+ concurrent requests**
-- HashMap caching for **O(1)** lookups, **80%** latency reduction
-- RESTful APIs with layered architecture
+---
 
-### [Map My Ganapati](https://github.com/godseritesh/Map_My_Ganapati)
-Festival navigation app — **Next.js, Firebase, Leaflet.js, AWS CloudFormation**
-- **5,000+** concurrent users at peak, **99.9%** uptime
-- **100%** cost savings vs Google Maps API via OpenStreetMap
-- IaC via AWS CloudFormation on free tiers
+## 📜 Certifications
+
+*(Coming soon)*
 
 ---
 
@@ -100,6 +109,6 @@ Festival navigation app — **Next.js, Firebase, Leaflet.js, AWS CloudFormation*
   <i>
     <b>Available for SDE I / Backend Engineer roles</b> — open to Bangalore, Pune, Mumbai, and remote.
     <br/>
-    Reach out: <a href="mailto:work.riteshgodse@gmail.com">work.riteshgodse@gmail.com</a>
+    Reach out: <a href="mailto:work.riteshgodse@gmail.com">work.riteshgodse@gmail.com</a> | +91-8983100889
   </i>
 </p>
