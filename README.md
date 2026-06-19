@@ -11,7 +11,7 @@
 
 ## 🧑‍💻 About
 
-Backend Software Engineer with **3+ years** of experience architecting high-throughput distributed systems in FinTech. I build production-grade services that process **40K+ transactions/hour**, orchestrate **Kafka pipelines**, and scale across **multi-cloud** (AWS, Azure, GCP, Oracle Cloud).
+Backend Software Engineer with **1+ years** of experience architecting high-throughput distributed systems in FinTech. I build production-grade services that process **40K+ transactions/hour**, orchestrate **Kafka pipelines**, and scale across **multi-cloud** (AWS, Azure, GCP, Oracle Cloud).
 
 Currently at **Jupiter Money** driving cloud-agnostic backend migrations (PPI, Java 25) and building recovery automation that boosts customer onboarding by **14%**.
 
@@ -98,7 +98,7 @@ Festival navigation app — **Next.js, Firebase, Leaflet.js, AWS CloudFormation*
 
 <p align="center">
   <i>
-    <b>Available for SDE II / Backend Engineer roles</b> — open to Bangalore, Pune, Mumbai, and remote.
+    <b>Available for SDE I / Backend Engineer roles</b> — open to Bangalore, Pune, Mumbai, and remote.
     <br/>
     Reach out: <a href="mailto:work.riteshgodse@gmail.com">work.riteshgodse@gmail.com</a>
   </i>
